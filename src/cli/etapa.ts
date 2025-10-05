@@ -129,6 +129,6 @@ function atualizarStatusEtapa(novoStatus: StatusEtapa) {
     if (novoStatus === StatusEtapa.EM_ANDAMENTO) etapa.iniciar();
     else if (novoStatus === StatusEtapa.CONCLUIDA) etapa.finalizar();
     etapa.salvar();
-    console.log(`Etapa "${etapa.nome}" atualizada para ${etapa.status}`);
+    console.log(`Etapa "${etapa.nome}" atualizada - ${etapa.status}`);
   }
 }
