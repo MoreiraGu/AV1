@@ -213,6 +213,11 @@ src/Relatorios/relatorio_<nomeCliente>_<nomeAeronave>.txt
 ```bash
 npm install
 ```
+### Executar tsconfig.json
+```bash
+tsc
+```
+
 ### Executar CLI
 ```bash
 npm start
