@@ -1,0 +1,22 @@
+{
+  "name": "aerocode-cli",
+  "version": "1.0.0",
+  "description": "CLI de gerenciamento de aeronaves, peças, etapas, testes e relatórios",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["CLI", "TypeScript", "Aeronave", "Gestão"],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "@types/readline-sync": "^1.4.4",
+    "typescript": "^5.2.2"
+  }
+}
